@@ -14,6 +14,8 @@
   src: url("./Fonts/Poppins-Regular.ttf");
 }
 
+
+
 .zero{
   padding-top: 5vh;
   display: block;
@@ -28,9 +30,9 @@
 }
 
 h4 {
+  font-size: 50px;
   color: white;
   padding-top: 3vh;
-  font-size: 52px;
   text-align: center;
   text-shadow: rgba(56, 42, 42, 0.466) 0px 3px 3px;
   padding-bottom: 3vh;
@@ -41,37 +43,62 @@ h1 {
   text-align: center;
   color: white;
   padding-bottom: 3vh;
+  padding-right: 4vh;
 }
+
+.contact0{
+  position: initial;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: inherit;
+  padding: 20vh 20vh;
+  background-color: none;
+  border: none;
+}
+  /* margin: 4px 2px;
+  opacity: 0.3;
+  transition:0.5s;
+}
+.contact0:hover {
+  opacity: 1;
+} */
+
+
+.git{
+  width: 30px;
+  height: 30px;
+}
+
 
 p {
-  border-bottom-color:rgba(158, 103, 103, 0.466) 0px 3px 3px;
-  padding-left: 3vh;
-  text-align: left;
   color: white;
-  font-size: 17px;
-  
-  
+  font-size: 20px;
+  text-align: left;
+  padding-left: 3vh;
+  padding-right: 3vh;
 }
 
-.about {
-  text-align: match-parent;
-  border-bottom-color:rgba(56, 42, 42, 0.466) 0px 3px 3px;
+
+.contact0{
+  font-family: PopLight;
+  font-size: 1fr;
 }
 
+footer {
+  clear: both;
+  position: initial;
+  margin-top: 30vh;
+  /* margin-bottom: 25vh; */
+}
 
 body {
-  text-align: center;
   font-family: PopLight;
   font-size: 25px;
   font-display: white;
   background: radial-gradient(#2b3a91, rgb(32, 92, 119));
 };
 
-
-
-
-
-/* body to review */
 
 nav {
   height: 10vh;
@@ -101,14 +128,6 @@ nav {
   align-items: center;
 } 
 
-/* .landing h1 {
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
- 
-/* landing work in progress*/
  
 @media screen and (max-width: 968px) {
   .line {
@@ -125,9 +144,9 @@ nav {
   .navBar {
     position: absolute;
     cursor: pointer;
-    right: 5%;
-    top: 50%;
-    transform: translate(-5%, -50%);
+    right: 3%;
+    top: 25%;
+    transform: translate(-25%, -20%);
     z-index: 2;
   }
 
@@ -176,6 +195,3 @@ li.fade {
   height: auto; 
   border-radius: 50
 };
-.one1 {
-
-}
